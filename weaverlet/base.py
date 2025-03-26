@@ -3,7 +3,7 @@ import string
 import random
 from collections import OrderedDict
 from .logger import logger
-from dash_extensions.enrich import Input, Output, Trigger, State, ServersideOutputTransform
+from dash_extensions.enrich import Input, Output, Trigger, State
 from dash_extensions.enrich import Dash
 
 COMPONENT_IDS_LENGTH = 7
